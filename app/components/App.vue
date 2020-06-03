@@ -22,6 +22,13 @@
 					<UITest/>
 				</GridLayout>
 			</TabViewItem>
+			<!--
+			<TabViewItem title="Tab 4">
+				<GridLayout columns="*" rows="*">
+					<UITestt/>
+				</GridLayout>
+			</TabViewItem>
+			-->
 		</TabView>
 	</Page>
 </template>
