@@ -22,13 +22,13 @@
 					<UITest/>
 				</GridLayout>
 			</TabViewItem>
-			<!--
+
 			<TabViewItem title="Tab 4">
 				<GridLayout columns="*" rows="*">
-					<UITestt/>
+					<UITest2/>
 				</GridLayout>
 			</TabViewItem>
-			-->
+
 		</TabView>
 	</Page>
 </template>
@@ -37,6 +37,7 @@
 import MainPage from "./MainPage";
 import DigitalTwins from "./DigitalTwins";
 import UITest from "./UITest"
+import UITest2 from "./UITest2"
 
 
 
@@ -44,7 +45,8 @@ export default {
 	components : {
 		MainPage,
 		DigitalTwins,
-		UITest
+		UITest,
+		UITest2
 	},
 	data() {
 		return {
