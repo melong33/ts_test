@@ -36,7 +36,7 @@ export default {
 			this.incrementinit();
 
 			this.polling = setInterval(() => {
-				// test
+				// test 
 				this.$store.dispatch("updateValue");
 				//this.$store.commit("increment", 2);
 			}, 1000);
