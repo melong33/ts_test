@@ -13,6 +13,7 @@ export default new Vuex.Store({
 	strict: TNS_ENV !== 'production' ? true : false,
 	state: {
 		counter : 0,
+		polling: null
 	},
 	mutations: {
 		increment(state, payload){
@@ -25,6 +26,12 @@ export default new Vuex.Store({
 		},
 		incrementinit(state, payload){
 			state.counter = 0;
+		}
+	},
+	actions: {
+		updateValue(context, payload) {		
+			context.commit('increment', payload);
+			console.log("updateValue!!");
 		}
 	},
 	getters: {
